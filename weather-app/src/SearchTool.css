@@ -1,0 +1,19 @@
+.SearchTool {
+    display: flex;
+    flex-direction: column;
+}
+
+.SearchTool label {
+    margin-bottom: 5 px;
+    /*font-size: 15 px;*/
+    color: blue;
+}
+
+.SearchTool input {
+    padding: 15 px 0;
+    border-radius: 10 px;
+    border-width: 1 px;
+    border-color: rgba(0, 0, 0, 0.25);
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}

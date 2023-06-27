@@ -1,0 +1,15 @@
+.Location {
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.1);
+}
+
+.Location .City {
+    font-size: 24 px;
+    margin-bottom: 6 px;
+    color: blue;
+}
+
+.Location .Data {
+    font-size: 18 px;
+    color: blue;
+}
