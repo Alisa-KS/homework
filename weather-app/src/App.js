@@ -1,19 +1,24 @@
-import './App.css';
-import SearchTool from "./SearchTool";
-import Location from "./Location";
-import Weather from "./Weather";
-import "./background.jpg";
+import React from 'react';
+import './css/App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <div className = "Container">
-        <SearchTool></SearchTool>
-        <Location></Location>
-        <Weather></Weather>
-      </div>
-    </div>
-  );
+class App extends React.Component {
+
+  render() {
+
+    return (
+      <React.Fragment>
+        <header className="header">
+          <h1 className="title">Прогноз погоды</h1>
+          <form className="form" id ="form">
+            <input id = "inputCity" className="input" type='text' placeholder='Введите название города'></input>
+            <button className="btn">Показать</button>
+          </form>
+        </header>     
+
+        <script src="./main.js"></script>
+      </React.Fragment>
+    )
+  }
 }
 
 export default App;

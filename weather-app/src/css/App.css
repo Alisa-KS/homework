@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px 50px;
+    background: linear-gradient(92.7deg, #4c5cc4 0%, #b23cd3 100%), #232323;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+
+    color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 15px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    color: #000000; 
+}
+
+.btn {
+    width: 145px;
+    height: 54px;   
+    background: #720404f8;
+    border-radius: 6px;
+   
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    text-align: center;
+
+    transition: background-color 0.2s ese-in;
+}
+
+.btn:hover {
+    background: #ae1d1df8;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+}
+
+.card::before {
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    z-index: -1;
+    content: "";
+    width: calc(100% - 20px);
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+}
+
+.card-city {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.card-city span {
+    display: inline-block;
+    padding: 3px 5px;
+    background: #E5464F;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    vertical-align: text-top;
+}
+
+.card-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-value {
+    font-size: 92px;
+    line-height: 1;
+    color: #000000;
+}
+
+.card-value sup {
+    font-size: 50%;
+}
+
+.card-img {
+
+}
+
+.card-description {
+    font-size: 20px;
+    line-height: 1.2;
+}
